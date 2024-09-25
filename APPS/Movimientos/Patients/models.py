@@ -11,7 +11,7 @@ class Patients(models.Model):
     Active = models.BooleanField()
 
     class Meta:
-        db_table = 'Patients'
+        db_table = 'Patient'
 
     def __str__(self):
         return self.PatientCode

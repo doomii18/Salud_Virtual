@@ -5,4 +5,4 @@ class Usuarios(AbstractUser):
     pass
 
     class Meta:
-        db_table = 'Usuarios'
+        db_table = 'Usuario'

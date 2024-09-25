@@ -8,7 +8,7 @@ class Charges(models.Model):
     Active = models.BooleanField()
 
     class Meta:
-        db_table = 'Charge'
+        db_table = 'Charges'
 
     def __str__(self):
         return  self.NameCharges

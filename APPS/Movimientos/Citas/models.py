@@ -14,7 +14,7 @@ class Citas(models.Model):
     Active = models.BooleanField()
 
     class Meta:
-        db_table = 'Cita'
+        db_table = 'Citas'
 
 
     def __str__(self):

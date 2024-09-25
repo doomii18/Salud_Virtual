@@ -14,7 +14,7 @@ class Tutors(models.Model):
     Active = models.BooleanField()
 
     class Meta:
-        db_table = 'Tutor'
+        db_table = 'Tutors'
 
     def __str__(self):
         return self.CodeTutor

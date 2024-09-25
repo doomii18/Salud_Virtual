@@ -9,5 +9,5 @@ from APPS.Movimientos.Citas.models import Patients
 @admin.register(Patients)
 
 class PatientsAdmin(admin.ModelAdmin):
-    list_display = ['IdPerson', 'PatientCode', 'Birthdate', 'Allergies', 'Active']
+    list_display = ['PatientCode', 'Birthdate', 'Allergies', 'Active']
     search_fields = ['PatientCode']

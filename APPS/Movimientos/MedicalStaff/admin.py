@@ -5,5 +5,5 @@ from APPS.Movimientos.MedicalStaff.models import MedicalStaff
 @admin.register(MedicalStaff)
 
 class MedicalStaffAdmin(admin.ModelAdmin):
-    list_display = ['IdPerson', 'MedicalStaffCode', 'Active']
+    list_display = ['MedicalStaffCode', 'Active']
     search_fields = ['MedicalStaffCode']

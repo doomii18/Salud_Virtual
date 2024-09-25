@@ -5,5 +5,5 @@ from APPS.Movimientos.Citas.models import Citas
 @admin.register(Citas)
 
 class CitasAdmin(admin.ModelAdmin):
-    list_display = ['IdPatients','CodeQuotes', 'Reason', 'State', 'DateTime', 'Active']
+    list_display = ['CodeQuotes', 'Reason', 'State', 'DateTime', 'Active']
     search_fields = ['CodeQuotes']
